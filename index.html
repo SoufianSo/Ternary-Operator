@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tenary-Aufgaben</title>
+  </head>
+  <body>
+    <div>
+      <h1>Alter überprüfen</h1>
+      <button>
+        <input type="number" id="ageInput" placeholder="Alter eingeben" />
+        <input type="submit" value="Überprüfen" onclick="checkAge()" />
+        <label for="ageInput">Klicke hier, um das Alter zu überprüfen</label>
+      </button>
+      <p id="result"></p>
+    </div>
+
+    <div>
+      <button>
+        <input type="number" name="code" id="code" placeholder="code" />
+        <input type="submit" value="check" onclick="codeeingabe()" />
+        <label for="code"> Passwortüberprüfung</label>
+      </button>
+      <p id="result2"></p>
+    </div>
+
+    <div>
+      <h1>Nachrichtenformular</h1>
+      <form>
+        <input
+          type="text"
+          id="message"
+          name="message"
+          placeholder="Ihre Nachricht hier eingeben"
+        />
+        <label for="message">Nachricht eingeben:</label>
+        <button type="button" onclick="anzeigen()">Anzeigen</button>
+      </form>
+      <div id="ausgabe"></div>
+    </div>
+
+    <script src="./assets/mains.js"></script>
+  </body>
+</html>
